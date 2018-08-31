@@ -41,7 +41,7 @@ $(document).ready(function(){
 		var passwordValue = $("#password").val();
 		var userNameValue = $("#username").val();
 
-		if(passwordValue == '' && userNameValue == ''){
+		if(passwordValue == 'Ammu' && userNameValue == 'amritameghlani'){
 			$("#submit").on("click", function(){
 				$(this).after('<div id="error2">The username you entered doesnt belong to an account. Please check your username and try again.</div>');
 				$(this).off();
